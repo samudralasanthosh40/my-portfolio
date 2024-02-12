@@ -1,26 +1,27 @@
 export const experience_constants = [
     {
-        "timeline" : "Oct 2022 - Mar 2023",
-        "company" : "Amazon",
-        "highest_designation" : "SDE-1",
+        "timeline" : "May 2021 - JUne 2022",
+        "company" : "DataSpeaks Services Private Limited",
+        "highest_designation" : "Full Stack Developer",
         "previous_designations" : [],
-        "description" : "Worked as an SDE-1 in the core transportation team owning multiple low latency document generation services which is one of the Tier-1 Service at Amazon. Delivered a pdf regression framework responsible for generating diffs of all kinds of PDF transportation document. Responsible for handling operational excellence for multiple AWS resources used in our services.",
-        "skills" : ["Java", "Amazon  Web Services (AWS)", "Spring Boot"]
+        "description" : "As a full stack developer, I led the development of Restful APIs, RabbitMQ messaging, and database operations, emphasizing high code quality. Deploying Elastic Search as a micro-service enhanced search functionality. I automated search processes with Matching Scores, improving efficiency by 70%. Collaborated on a responsive React.js UI and ensured secure integration and Unit Testing. Adapted to Agile and Scrum methodologies.",
+        "skills" : ["Java", "React JS", "Spring Boot"]
     },
-    {
-        "timeline" : "Jan 2022 - Oct 2022",
-        "company" : "Darwinbox",
-        "highest_designation" : "Software Engineer",
-        "previous_designations" : ["Intern"],
-        "description" : "Contributed to the company in IPAAS module to integrate software applications from different environments for multi tenant architecture. Developed application using ExpressJs and Yii framework",
-        "skills" : ["NodeJs", "ExpressJs", "PHP", "Yii", "MongoDB", "MySQL"]
-    },
+   
     {
         "timeline" : "2018-2022",
         "highest_designation" : "Bachelor Degree of Computer Science and Engineering",
         "company" : "CVR College of Engineering",
         "previous_designations" : [""],
         "description" : "",
-        "skills" : []
+        "skills" : ["Data Structures", "Java","C/C++","Python", "Network Security", "Data Science", "Web Engineering", "Big Data", "IoT", "Data Mining", "Cloud Computing."]
+    },
+    {
+        "timeline" : "2022-2023",
+        "highest_designation" : "Master Degree of Computer Science",
+        "company" : "State University of New York at Buffalo",
+        "previous_designations" : [""],
+        "description" : "",
+        "skills" : ["Algorithms","Machine Learning","Reinforcement Learning","Data Models Query Lang","Tableau","Computer Security","Project Management"]
     }
 ]

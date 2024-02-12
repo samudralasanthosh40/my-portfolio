@@ -1,7 +1,7 @@
 import React from 'react'
 import {profile_data} from '../assets/constants/profile_constants.js'
 import {media_sources} from '../assets/constants/media_constants.js'
-import profile_icon from '../assets/images/me3.jpg'
+import profile_icon from '../assets/images/img.jpg'
 import Icon from './icon.js'
 
 function Profile() {

@@ -8,16 +8,16 @@ export const skill_constants = [
         "icon":"nodejs.png"
     },
     {
-        "technology":"Flask",
-        "icon":"flask.png"
+        "technology":"Java",
+        "icon":"java.png"
     },
     {
         "technology":"Spring Boot",
         "icon":"springboot.png"
     },
     {
-        "technology":"PHP",
-        "icon":"php.png"
+        "technology":"HTML",
+        "icon":"html1.png"
     },
     {
         "technology":"MongoDB",

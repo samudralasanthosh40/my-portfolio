@@ -1,6 +1,6 @@
 export const profile_data = {
-    "author" : "Kukudamu Varun Raj",
-    "designation" : "Ex-SDE at Amazon",
-    "address" : "Base in Telangana, India",
-    "email" : "varunraj.k2001@gmail.com"
+    "author" : "Saishankar Vanam ",
+    "designation" : "FUll Stack Developer",
+    "address" : "Base in Charlotte, United States",
+    "email" : "vanamsaishankar99@gmail.com"
 }

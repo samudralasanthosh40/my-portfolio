@@ -1,23 +1,23 @@
 export const project_constants = [
     {
-        "title" : "Covid Dashboard and E-Pass",
-        "description" : "It is a web application that provides information about covid statistics ( global as well as India's covid statistics) by visualizing it on a svg map to the users and also allows them to register for E-Pass certificate , track their application status",
-        "technologies_used" : ["ReactJs", "NodeJs", "Firebase"],
-        "code_link" : "https://github.com/varun574/Covid-Dashboard-and-Epass",
-        "project_image" : "covid_dashboard.png"
+        "title" : "Exam Study Tool",
+        "description" : "Exam Study Tool is a dynamic and user-friendly web application designed to facilitate comprehensive exam preparation for students across diverse linguistic backgrounds. With its intuitive interface, students can access a vast repository of questions in multiple languages, enabling them to enhance their understanding and proficiency in various subjects. Moreover, teachers benefit from the platform's robust features, which allow them to curate tailored tests and assessments suited to the individual needs of their students, all within a multilingual framework. This innovative tool not only fosters a conducive learning environment but also promotes inclusivity and accessibility in education.",
+        "technologies_used" : ["EJS", "NodeJs", "HTML","Bootstrap","MySQL","AWS"],
+        "code_link" : "https://github.com/saishankar47/Examstudytool.git",
+        "project_image" : "EST.png"
     },
     {
-        "title" : "Fake Product Review Monitoring",
-        "description" : "It is a ecommerce web application, followed microservice architecture, that allows an admin to monitor fake reviews from the users under some criteria. This application is developed using ExpressJs and Flask Framework",
-        "technologies_used" : ["ExpressJs", "Flask", "MongoDB", "AWS S3", "RabbitMQ"],
-        "code_link" : "https://github.com/varun574/Fake-Product-Review-Monitoring",
-        "project_image" : "fake_product_monitoring.png"
+        "title" : "Face Recognition using Similarity Feature-Based Selection and Classification",
+        "description" : "Developed automated threshold selection for face recognition using SFSC algorithms and wrapper models. Improved accuracy by selecting optimal feature sets. Tested on ORL and Georgia Tech face databases, yielding superior results.",
+        "technologies_used" : ["Python", "TensorFlow", "OpenCV"],
+        "code_link" : "",
+        "project_image" : "FR1.png"
     },
     {
         "title" : "Coupon-X",
         "description" : "The idea was about exchange of coupons on an E-Commerce website. We developed an E-Commerce website along with the feature of trading Coupons",
         "technologies_used" : ["HTML", "CSS", "Bootsrap 4", "JQuery", "MySQL", "JSP"],
-        "code_link" : "https://github.com/varun574/Coupon-X",
+        "code_link" : "https://github.com/saishankar47/Coupon-X.git",
         "project_image" : "coupon-x.jpg"
     }
 ]
