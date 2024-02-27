@@ -24,7 +24,7 @@ function ContactForm() {
         <Toast show={isSubmitted} className='mb-3' bg='success' style={{width:"50%", textAlign:"center",margin:"auto"}}>
             <Toast.Body><strong>Thank you! Your message has been sent  &#9989;</strong></Toast.Body>
         </Toast>
-        <form className='contact-form' method='post' onSubmit={handleSubmit}>
+        <form className='contact-form' method='post' action='https://formspree.io/f/mleqnlrr' onSubmit={handleSubmit}>
             <div className='form-group mb-3'>
                 <label htmlFor='fullname' className='form-label'>Full Name <span className='text-danger'>*</span></label>
                 <input type='text' name='fullname' id='fullname' className='form-control shadow-none custom-input-text' placeholder='Your Full Name' required value={emailData.fullname} onChange={handleInputTextChange}></input>
@@ -42,7 +42,7 @@ function ContactForm() {
                 <textarea name='message' id='message' rows={5} className='form-control shadow-none custom-input-text' placeholder='Your message here ...' value={emailData.message} onChange={handleInputTextChange}></textarea>
             </div>
             <div className='form-group mt-4'>
-                <button type='submit' className='contact-btn border-2 btn rounded-pill' style={{maxWidth:"20rem"}}>SEND MESSAGE</button>
+                <button type='submit' className='contact-btn border-2 btn rounded-pill' style={{maxWidth:"20rem"}}>SENDaaaa MESSAGE</button>
             </div>
         </form>
     </div>
