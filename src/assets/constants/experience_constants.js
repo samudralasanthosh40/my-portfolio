@@ -1,6 +1,6 @@
 export const experience_constants = [
     {
-        "timeline" : "May 2021 - JUne 2022",
+        "timeline" : "May 2021 - June 2022",
         "company" : "DataSpeaks Services Private Limited",
         "highest_designation" : "Full Stack Developer",
         "previous_designations" : [],
