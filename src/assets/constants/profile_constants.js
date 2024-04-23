@@ -1,6 +1,7 @@
 export const profile_data = {
-    "author" : "Saishankar Vanam ",
+    "author" : "SAI SANTHOSH SAMUDRALA ",
     "designation" : "Full Stack Developer",
-    "address" : "Base in Charlotte, United States",
-    "email" : "vanamsaishankar99@gmail.com"
+    "address" : "Birmingham, United States",
+    "email" : "ssamudra2000@gmail.com"
 }
+ 

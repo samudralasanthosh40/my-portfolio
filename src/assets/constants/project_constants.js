@@ -1,40 +1,34 @@
 
-    export const project_constants = [
-        {
-            "title" : "Exam Study Tool",
-            "description" : "Exam Study Tool is a dynamic and user-friendly web application designed to facilitate comprehensive exam preparation for students across diverse linguistic backgrounds. With its intuitive interface, students can access a vast repository of questions in multiple languages, enabling them to enhance their understanding and proficiency in various subjects. Moreover, teachers benefit from the platform's robust features, which allow them to curate tailored tests and assessments suited to the individual needs of their students, all within a multilingual framework. This innovative tool not only fosters a conducive learning environment but also promotes inclusivity and accessibility in education.",
-            "technologies_used" : ["EJS", "NodeJs", "HTML","Bootstrap","MySQL","AWS"],
-            "code_link" : "https://github.com/saishankar47/Examstudytool.git",
-            "project_image" : "EST.png"
-        },
-        {
-            "title" : "Online Appointment System",
-            "description" : "Developed a website facilitating patient appointments with specialized doctors, offering comprehensive patient records including medical history and genetic predispositions. Implemented features to notify patients of doctor unavailability, enhancing scheduling efficiency. Utilized REST API and Spring MVC for seamless functionality.",
-            "technologies_used" : ["Spring MVC", "HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "Ajax", "JSON", "Hibernate", "Native SQL"],
-            "code_link" : "https://github.com/saishankar47/smart-covid-clinic-front-end",
-            "project_image" : "online_appointment.jpeg"
-        },
-        {
-            "title" : "Coupon-X",
-            "description" : "The idea was about exchange of coupons on an E-Commerce website. We developed an E-Commerce website along with the feature of trading Coupons",
-            "technologies_used" : ["HTML", "CSS", "Bootsrap 4", "JQuery", "MySQL", "JSP"],
-            "code_link" : "https://github.com/saishankar47/Coupon-X.git",
-            "project_image" : "coupon-x.jpg"
-        },
-        {
-            "title" : "Face Recognition using Similarity Feature-Based Selection and Classification",
-            "description" : "Developed automated threshold selection for face recognition using SFSC algorithms and wrapper models. Improved accuracy by selecting optimal feature sets. Tested on ORL and Georgia Tech face databases, yielding superior results.",
-            "technologies_used" : ["Python", "TensorFlow", "OpenCV"],
-            "code_link" : "",
-            "project_image" : "FR1.png"
-        },
-        {
-            "title" : "Smart Alert System for Fast Moving Vehicles using Wireless Sensor Networks",
-            "description" : "Implemented a student vehicle monitoring system using Arduino, RFID, and GSM technology. Parents can control vehicle speed; if exceeding 60 KMPH, the alert system notifies parents to take action. Ensures safety by preventing accidents, with exemptions for emergency vehicles. This approach promotes fuel efficiency and reduces air pollution while involving parents in speed control.",
-            "technologies_used" : ["C", "IoT", "Embedded Systems"],
-            "code_link" : "",
-            "project_image" : "IOT.jpg"
-        },
-        
-    ]
-    // 
+export const project_constants = [
+
+    {
+        "title" : "Facial Identification for Missing Child",
+        "description" : "Spearheaded the development of a facial recognition classifier using the K-Nearest Neighbors algorithm, achieving a groundbreaking 65% accuracy in identifying missing children. Spearheaded the development of a user-friendly web and mobile app, enabling seamless data management and match updates reduced identification process time by 30% and enhanced user experience resulting in a 20% increase in user retention. Deployed the system on scalable cloud infrastructure, handling a 50% increase in traffic demands while ensuring 99% uptime and sub-300ms response times, maintaining high availability and responsiveness. Contributed to over 1,000 missing children cases, pivotal in elevating success rates for reuniting families in distress.",
+        "technologies_used" : [ "Python", "FastAPI", "scikit-learn" , "OpenCV", "NumPy", "Pandas",  "Pillow (PIL)"],
+        "code_link" : "",
+        "project_image" : "fimc.jpeg"
+    },
+    {
+        "title" : "Toxic Comment Classification",
+        "description" : "Engineered innovative toxic comment classification system with Naive Bayes, SVM, and ensemble techniques, achieving 80.72% F1 score and 74% recall rate, enhancing online community moderation. Implemented advanced NLP techniques, including TF-IDF vectorization, and optimized feature engineering, resulting in an 11% performance gain over benchmark model, fostering a positive online environment while minimizing overhead. Evaluated 10+ machine learning algorithms like logistic regression, decision trees, and ensemble methods for toxic comment classification, deploying a robust, scalable LightGBM solution achieving 85% accuracy in safeguarding online interactions with minimal false positives, showcasing expertise in data analytics and risk mitigation.",
+        "technologies_used" : [ "Python", "Scikit-learn", "NumPy", "Pandas", "Dlib", "NLP", "Logistic Regression", "Naive Bayes", "SVM", "LightGBM"],
+        "code_link" : "",
+        "project_image" : "tcc.png"
+    },
+
+    {
+        "title" : "PPS-R18",
+        "description" : "Developed an innovative Android app, ’PPS-R18,” using Android Studio and Java to provide interactive C programming lessons and exercises. In line with the R-18 syllabus, the offline interface of the app enabled self-paced learning, leading to a 35% improvement in programming skills for 550 students.",
+        "technologies_used" : ["Android Studio", "Java", "XML"],
+        "code_link" : "",
+        "project_image" : "clang.png"
+    },
+    {
+        "title" : "Credit Card Fraud Detection",
+        "description" : "Designed and implemented a robust credit card fraud detection system by integrating decision tree methodology with Luhn's and Hunt's algorithms, resulting in a 70% increase in fraud detection accuracy and a 40% reduction in false positives. Demonstrated proficiency in advanced data analytics and risk management techniques while contributing to the safeguarding of financial assets",
+        "technologies_used" : ["Python", "TensorFlow", "OpenCV"],
+        "code_link" : "",
+        "project_image" : "ccfd.png"
+    },
+]
+// 

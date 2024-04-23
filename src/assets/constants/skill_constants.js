@@ -8,17 +8,26 @@ export const skill_constants = [
         "icon":"nodejs.png"
     },
     {
+        "technology":"Python",
+        "icon":"python.webp"
+    },
+    {
         "technology":"Java",
         "icon":"java.png"
     },
     {
-        "technology":"Spring Boot",
-        "icon":"springboot.png"
+        "technology":"C/C++",
+        "icon":"c.png"
     },
     {
         "technology":"HTML",
         "icon":"html1.png"
     },
+    {
+        "technology":"Tailwind CSS",
+        "icon":"css.jpeg"
+    },
+
     {
         "technology":"MongoDB",
         "icon":"mongodb.png"
@@ -26,5 +35,17 @@ export const skill_constants = [
     {
         "technology":"MySQL",
         "icon":"mysql.png"
+    },
+    {
+        "technology":"AWS",
+        "icon":"aws.png"
+    },
+    {
+        "technology":"Git",
+        "icon":"git.png"
+    },
+    {
+        "technology":"Android Studio",
+        "icon":"as.webp"
     }
 ]

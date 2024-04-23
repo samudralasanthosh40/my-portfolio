@@ -5,7 +5,6 @@ import profile_icon from '../assets/images/img.jpg'
 import Icon from './icon.js'
 
 function Profile() {
-  
   return (
     <div className='profile d-flex flex-column align-items-center justify-content-around p-3'>
       <div className='profile-heading'>
@@ -33,5 +32,6 @@ function Profile() {
     </div>
   )
 }
+
 
 export default Profile
