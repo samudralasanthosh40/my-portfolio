@@ -31,4 +31,3 @@ export const project_constants = [
         "project_image" : "ccfd.png"
     },
 ]
-// 
