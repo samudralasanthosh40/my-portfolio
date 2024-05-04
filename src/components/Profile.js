@@ -1,7 +1,7 @@
 import React from 'react'
 import {profile_data} from '../assets/constants/profile_constants.js'
 import {media_sources} from '../assets/constants/media_constants.js'
-import profile_icon from '../assets/images/img.jpg'
+import profile_icon from '../assets/images/img.jpeg'
 import Icon from './icon.js'
 
 function Profile() {
@@ -12,7 +12,7 @@ function Profile() {
         <span style={{float:'right'}}>{profile_data.designation}</span>
       </div>
       <div className='profile-pic'>
-      <img src={profile_icon} height={"200px"} width={"200px"} className='rounded' style={{objectFit:"cover", objectPosition:"50% 10%", filter:"grayscale(100%)"}} alt='profile'></img>
+      <img src={profile_icon} height={"200px"} width={"200px"} className='rounded' style={{objectFit:"cover", objectPosition:"50% 10%"}} alt='profile'></img>
       </div>
       <div className='profile-body'>
         <h4 style={{textAlign:"center"}}>{profile_data.email}</h4>
