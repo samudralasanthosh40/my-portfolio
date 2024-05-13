@@ -30,8 +30,4 @@ export const project_constants = [
         "code_link" : "https://github.com/18211a12a2/CREDIT-CARD-FRAUD-DETECTION.git",
         "project_image" : "ccfd.png"
     },
-<<<<<<< HEAD
 ]
-=======
-]
->>>>>>> refs/remotes/origin/main
