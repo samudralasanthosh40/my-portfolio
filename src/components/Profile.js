@@ -1,18 +1,18 @@
 import React from 'react'
 import {profile_data} from '../assets/constants/profile_constants.js'
 import {media_sources} from '../assets/constants/media_constants.js'
-import profile_icon from '../assets/images/img.jpeg'
+import profile_icon from '../assets/images/img.jpg'
 import Icon from './icon.js'
 
 function Profile() {
   return (
     <div className='profile d-flex flex-column align-items-center justify-content-around p-3'>
       <div className='profile-heading'>
-        <h6 className='display-6'>{profile_data.author}</h6>
+        <h6 className='display-5'>{profile_data.author}</h6>
         <span style={{float:'right'}}>{profile_data.designation}</span>
       </div>
       <div className='profile-pic'>
-      <img src={profile_icon} height={"200px"} width={"200px"} className='rounded' style={{objectFit:"cover", objectPosition:"50% 10%"}} alt='profile'></img>
+      <img src={profile_icon} height={"250px"} width={"250px"} className='rounded' style={{objectFit:"cover", objectPosition:"50% 10%"}} alt='profile'></img>
       </div>
       <div className='profile-body'>
         <h4 style={{textAlign:"center"}}>{profile_data.email}</h4>

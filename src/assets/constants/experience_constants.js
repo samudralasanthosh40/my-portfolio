@@ -11,7 +11,7 @@ export const experience_constants = [
     },
   
     {
-      timeline: "September 2021 - August 2022",
+      timeline: "August 2021 - September 2022",
       company: "Virtusa Consulting Services Private Limited",
       highest_designation: "Full Stack Developer",
       previous_designations: [],
