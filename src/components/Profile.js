@@ -8,7 +8,7 @@ function Profile() {
   return (
     <div className='profile d-flex flex-column align-items-center justify-content-around p-3'>
       <div className='profile-heading'>
-        <h6 className='display-5'>{profile_data.author}</h6>
+        <h6 className='display-6'>{profile_data.author}</h6>
         <span style={{float:'right'}}>{profile_data.designation}</span>
       </div>
       <div className='profile-pic'>
