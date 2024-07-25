@@ -11,23 +11,23 @@ export const experience_constants = [
     },
   
     {
-      timeline: "August 2021 - September 2022",
-      company: "Virtusa Consulting Services Private Limited",
+      timeline: "April 2020 - November 2022",
+      company: "Virtusa Consulting Services",
       highest_designation: "Full Stack Developer",
       previous_designations: [],
       description:
         "Spearheaded the development of an interactive React application aimed at revolutionizing driver recruitment processes. Through the implementation of user-centric design principles, the platform streamlined job postings and applicant processing, resulting in a 30% reduction in hiring cycle time and a 20% increase in candidate engagement.",
-      skills: ["React JS", "Java", "Spring Boot"],
+      skills: ["React JS", "Node.js", "Express.js", "MongoDB", "Bootstrap", "AWS", "Docker and Kubernetes"],
     },
   
     {
-      timeline: "March 2021 - July 2021",
-      highest_designation: "Intern",
-      company: "Cisco Networking Academy",
+      timeline: "September 2019 - Feb 2020",
+      highest_designation: "Frontend Developer",
+      company: "Cisco",
       previous_designations: [""],
-      description: "Designed and installed network infrastructure, including networking, switching, firewalls, and routing, to streamline packet flow and internet systems, improving data transfer speeds by 50% and enhancing system reliability.",
+      description: "Developed a responsive web application to modernize a legacy design, increasing user engagement by 30% and reducing bounce rate by 25%. Migrated from AngularJS to Angular 2, reducing page load times by 20% and improving performance for over 10,000 users.Implemented RESTful Web Services with JAX-RS and Spring, and automated CI with GitHub Actions, cutting deployment time by 40% and reducing errors by 50%.",
       skills: [
-          "DevNet", "Switching" , "Routing",  "Wireless Essentials", "DevNet", "REST API", "Sandboxes"
+          "AngularJS", "HTML 5" , "CSS",  "Tailwind CSS", "TypeScript", "GitHub Actions", "AJAX", "XML" 
       ],
     },
   
