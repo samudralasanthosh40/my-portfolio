@@ -1,14 +1,12 @@
-import React, { useState } from 'react'
-import { Toast } from 'react-bootstrap'
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm, ValidationError } from "@formspree/react";
 
 // function ContactForm() {
 //     let [isSubmitted, setIsSubmitted] = useState(false);
 //     let [emailData, setEmailData] = useState({"fullname":"","email":"","subject":"","message":""})
-    
+
 //     function handleSubmit(event){
 //         event.preventDefault();
-//         setIsSubmitted(true); 
+//         setIsSubmitted(true);
 //         clearInputs();
 //         setTimeout(()=>setIsSubmitted(false), 2000)
 //     }
@@ -25,25 +23,25 @@ import { useForm, ValidationError } from '@formspree/react';
 //             <Toast.Body><strong>Thank you! Your message has been sent  &#9989;</strong></Toast.Body>
 //         </Toast>
 //         <form className='contact-form' method='post' action='https://formspree.io/f/mleqnlrr' onSubmit={handleSubmit}>
-            // <div className='form-group mb-3'>
-            //     <label htmlFor='fullname' className='form-label'>Full Name <span className='text-danger'>*</span></label>
-            //     <input type='text' name='fullname' id='fullname' className='form-control shadow-none custom-input-text' placeholder='Your Full Name' required value={emailData.fullname} onChange={handleInputTextChange}></input>
-            // </div>
-            // <div className='form-group mb-3'>
-            //     <label htmlFor='email' className='form-label'>Email <span className='text-danger'>*</span></label>
-            //     <input type='email' name='email' id='email' className='form-control shadow-none custom-input-text' placeholder='Your email address' required value={emailData.email} onChange={handleInputTextChange}></input>
-            // </div>
-            // <div className='form-group mb-3'>
-            //     <label htmlFor='subject' className='form-label'>Subject <small className='text-secondary'>&#40; optional &#41;</small></label>
-            //     <input type='text' name='subject' id='subject' className='form-control shadow-none custom-input-text' placeholder='Write a subject' value={emailData.subject} onChange={handleInputTextChange}></input>
-            // </div>
-            // <div className='form-group mb-3'>
-            //     <label htmlFor='message' className='form-label'>Message</label>
-            //     <textarea name='message' id='message' rows={5} className='form-control shadow-none custom-input-text' placeholder='Your message here ...' value={emailData.message} onChange={handleInputTextChange}></textarea>
-            // </div>
-            // <div className='form-group mt-4'>
-            //     <button type='submit' className='contact-btn border-2 btn rounded-pill' style={{maxWidth:"20rem"}}>SEND MESSAGE</button>
-            // </div>
+// <div className='form-group mb-3'>
+//     <label htmlFor='fullname' className='form-label'>Full Name <span className='text-danger'>*</span></label>
+//     <input type='text' name='fullname' id='fullname' className='form-control shadow-none custom-input-text' placeholder='Your Full Name' required value={emailData.fullname} onChange={handleInputTextChange}></input>
+// </div>
+// <div className='form-group mb-3'>
+//     <label htmlFor='email' className='form-label'>Email <span className='text-danger'>*</span></label>
+//     <input type='email' name='email' id='email' className='form-control shadow-none custom-input-text' placeholder='Your email address' required value={emailData.email} onChange={handleInputTextChange}></input>
+// </div>
+// <div className='form-group mb-3'>
+//     <label htmlFor='subject' className='form-label'>Subject <small className='text-secondary'>&#40; optional &#41;</small></label>
+//     <input type='text' name='subject' id='subject' className='form-control shadow-none custom-input-text' placeholder='Write a subject' value={emailData.subject} onChange={handleInputTextChange}></input>
+// </div>
+// <div className='form-group mb-3'>
+//     <label htmlFor='message' className='form-label'>Message</label>
+//     <textarea name='message' id='message' rows={5} className='form-control shadow-none custom-input-text' placeholder='Your message here ...' value={emailData.message} onChange={handleInputTextChange}></textarea>
+// </div>
+// <div className='form-group mt-4'>
+//     <button type='submit' className='contact-btn border-2 btn rounded-pill' style={{maxWidth:"20rem"}}>SEND MESSAGE</button>
+// </div>
 //         </form>
 //     </div>
 //   )
@@ -52,52 +50,80 @@ import { useForm, ValidationError } from '@formspree/react';
 function ContactForm() {
   const [state, handleSubmit] = useForm("xkndknov");
   if (state.succeeded) {
-      return <p>Thanks for Contacing Me!</p>;
+    return <p>Thanks for Contacing Me!</p>;
   }
   return (
-      <form onSubmit={handleSubmit}>
-       <div className='form-group mb-3'>
-                <label htmlFor='fullname' className='form-label'>Full Name <span className='text-danger'>*</span></label>
-                <input type='text' name='fullname' id='fullname' className='form-control shadow-none custom-input-text' placeholder='Your Full Name' required ></input>
-        </div>
-        <ValidationError 
-        prefix="Full Name" 
+    <form onSubmit={handleSubmit}>
+      <div className="form-group mb-3">
+        <label htmlFor="fullname" className="form-label">
+          Full Name <span className="text-danger">*</span>
+        </label>
+        <input
+          type="text"
+          name="fullname"
+          id="fullname"
+          className="form-control shadow-none custom-input-text"
+          placeholder="Your Full Name"
+          required
+        ></input>
+      </div>
+      <ValidationError
+        prefix="Full Name"
         field="fullname"
         errors={state.errors}
       />
-      <div className='form-group mb-3'>
-                <label htmlFor='email' className='form-label'>Email <span className='text-danger'>*</span></label>
-                <input type='email' name='email' id='email' className='form-control shadow-none custom-input-text' placeholder='Your email address' required></input>
-        </div>
-      <ValidationError 
-        prefix="Email" 
-        field="Email"
-        errors={state.errors}
-      />
-        <div className='form-group mb-3'>
-                <label htmlFor='subject' className='form-label'>Subject <small className='text-secondary'>&#40; optional &#41;</small></label>
-                <input type='text' name='subject' id='subject' className='form-control shadow-none custom-input-text' placeholder='Write a subject' ></input>
-        </div>
-        <ValidationError 
-        prefix="Subject" 
-        field="Subject"
-        errors={state.errors}
-      />
+      <div className="form-group mb-3">
+        <label htmlFor="email" className="form-label">
+          Email <span className="text-danger">*</span>
+        </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          className="form-control shadow-none custom-input-text"
+          placeholder="Your email address"
+          required
+        ></input>
+      </div>
+      <ValidationError prefix="Email" field="Email" errors={state.errors} />
+      <div className="form-group mb-3">
+        <label htmlFor="subject" className="form-label">
+          Subject <small className="text-secondary">&#40; optional &#41;</small>
+        </label>
+        <input
+          type="text"
+          name="subject"
+          id="subject"
+          className="form-control shadow-none custom-input-text"
+          placeholder="Write a subject"
+        ></input>
+      </div>
+      <ValidationError prefix="Subject" field="Subject" errors={state.errors} />
 
-        <div className='form-group mb-3'>
-                <label htmlFor='message' className='form-label'>Message</label>
-                <textarea name='message' id='message' rows={5} className='form-control shadow-none custom-input-text' placeholder='Your message here ...'  ></textarea>
-        </div>
-      <ValidationError 
-        prefix="Message" 
-        field="Message"
-        errors={state.errors}
-      />
-      <div className='form-group mt-4'>
-                <button type='submit' className='contact-btn border-2 btn rounded-pill' style={{maxWidth:"20rem"}}>SEND MESSAGE</button>
-            </div>
+      <div className="form-group mb-3">
+        <label htmlFor="message" className="form-label">
+          Message
+        </label>
+        <textarea
+          name="message"
+          id="message"
+          rows={5}
+          className="form-control shadow-none custom-input-text"
+          placeholder="Your message here ..."
+        ></textarea>
+      </div>
+      <ValidationError prefix="Message" field="Message" errors={state.errors} />
+      <div className="form-group mt-4">
+        <button
+          type="submit"
+          className="contact-btn border-2 btn rounded-pill"
+          style={{ maxWidth: "20rem" }}
+        >
+          SEND MESSAGE
+        </button>
+      </div>
     </form>
   );
 }
 
-export default ContactForm
+export default ContactForm;
