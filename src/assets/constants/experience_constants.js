@@ -2,10 +2,10 @@ export const experience_constants = [
   {
     timeline: "June 2023 - Present",
     company: "Fidelity investments",
-    highest_designation: "Full Stack Java Developer",
+    highest_designation: "Software Engineer",
     previous_designations: [],
     description:
-      "Worked as a Full Stack Java Developer on Fidelity’s Net Benefits platform, delivering high-performance, cross-platform solutions using Angular, Spring Boot, and AWS. Improved application performance and security with optimized APIs, RBAC/OAuth2, and real-time WebSocket integration. Spearheaded CI/CD automation, code quality improvements, and responsive UI design.",
+      "Worked as a Software Engineer on Fidelity’s Net Benefits platform, delivering high-performance, cross-platform solutions using Angular, Spring Boot, and AWS. Improved application performance and security with optimized APIs, RBAC/OAuth2, and real-time WebSocket integration. Spearheaded CI/CD automation, code quality improvements, and responsive UI design.",
     skills: [
       "Angular",
       "Ionic",
@@ -41,12 +41,12 @@ export const experience_constants = [
   },
 
   {
-    timeline: "jan 2021 - December 2022",
-    company: "Virtusa Consulting Services",
-    highest_designation: "Full Stack Developer(Java & React)",
+    timeline: "Jan 2021 - Jan 2023",
+    company: "Virtusa ",
+    highest_designation: "Software Engineer",
     previous_designations: [],
     description:
-      "Full-stack developer with hands-on experience building scalable enterprise financial applications using React.js, Spring Boot, and GraphQL. Specialized in performance optimization, secure authentication, and robust state management. Proven track record of enhancing UI/UX, reducing load times, and streamlining DevOps workflows.",
+      "Software Engineer with hands-on experience building scalable enterprise financial applications using React.js, Spring Boot, and GraphQL. Specialized in performance optimization, secure authentication, and robust state management. Proven track record of enhancing UI/UX, reducing load times, and streamlining DevOps workflows.",
     skills: [
       "React JS",
       "Redux",
@@ -62,7 +62,7 @@ export const experience_constants = [
   },
 
   {
-    timeline: "September 2020 - Dec 20200",
+    timeline: "September 2020 - Dec 2020",
     highest_designation: "Frontend Developer Intern",
     company: "Cisco",
     previous_designations: [""],

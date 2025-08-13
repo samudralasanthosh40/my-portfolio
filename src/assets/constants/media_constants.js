@@ -9,11 +9,6 @@ export const media_sources = [
     src: "https://github.com/18211a12a2",
     iconClass: "fa fa-github",
   },
-  {
-    platform: "portfolio",
-    src: "https://18211a12a2.github.io/my-portfolio/",
-    iconClass: "fa fa-chrome",
-  },
 
   {
     platform: "leetcode",
