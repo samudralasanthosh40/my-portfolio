@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[945],{4945:function(e,o,p){e.exports=p.p+"static/media/food_ordering.e8dbc8e7b40dbae0264c.webp"}}]);
