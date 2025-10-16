@@ -4,7 +4,12 @@ export const project_constants = [
     description:
       "Food Hub revolutionizes the way users interact with local restaurants, offering a convenient and efficient solution for online food ordering. By streamlining the process from menu browsing to order delivery, Food Hub enhances user satisfaction and promotes business growth for partnering restaurants and has achieved impressive milestones, with over 500 registered users and partnerships with 25 local restaurants in the area.",
     technologies_used: [
-        "React.js", "Node.js", "Router", "Express.js", "MongoDB","Stripe"
+      "React.js",
+      "Node.js",
+      "Router",
+      "Express.js",
+      "MongoDB",
+      "Stripe",
     ],
     code_link: "https://github.com/18211a12a2/FoodHUB",
     project_image: "food_ordering.webp",
@@ -44,15 +49,6 @@ export const project_constants = [
     ],
     code_link: "https://github.com/18211a12a2/Toxic-Comment-Classification.git",
     project_image: "tcc.png",
-  },
-
-  {
-    title: "PPS-R18",
-    description:
-      "Developed an innovative Android app, ’PPS-R18,” using Android Studio and Java to provide interactive C programming lessons and exercises. In line with the R-18 syllabus, the offline interface of the app enabled self-paced learning, leading to a 35% improvement in programming skills for 550 students.",
-    technologies_used: ["Android Studio", "Java", "XML"],
-    code_link: "https://github.com/18211a12a2/PPS-R18.git",
-    project_image: "clang.png",
   },
   {
     title: "Credit Card Fraud Detection",
